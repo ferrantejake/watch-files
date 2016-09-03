@@ -1,4 +1,5 @@
 var gulp = require('gulp'),
+    util = require('gulp-util'),
     project = require('./gulp.json'), 
     path = require('path'),
     watcher = gulp.watch(project.src),
@@ -14,9 +15,9 @@ gulp.task('watch', () => {
         // run child process javac command
         exec('javac ' + fileName, function (err) {
             if (err) {
-                console.log(err.message);
+                util.log(err.message);
             } else {
-                console.log(`\n[${fileName}] complete, no errors`)
+                util.log(`[${fileName}] complete, no errors`)
             }
         });
     });

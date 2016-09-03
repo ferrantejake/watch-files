@@ -20,7 +20,7 @@
     "url": "https://github.com/ferrantejake/watch-files/issues"
   },
   "homepage": "https://github.com/ferrantejake/watch-files#readme",
-  "devDependencies": {
-    "gulp": "^3.9.1"
+  "dependencies": {
+    "gulp-util": "^3.0.7"
   }
 }
