@@ -1,0 +1,26 @@
+{
+  "name": "watch-files",
+  "version": "1.0.0",
+  "description": "Watch any type of file using gulp",
+  "main": "''",
+  "scripts": {
+    "test": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferrantejake/watch-files.git"
+  },
+  "keywords": [
+    "gulp",
+    "watch"
+  ],
+  "author": "Jake Ferrante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ferrantejake/watch-files/issues"
+  },
+  "homepage": "https://github.com/ferrantejake/watch-files#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
